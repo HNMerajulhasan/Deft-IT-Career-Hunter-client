@@ -15,9 +15,9 @@ const Courses = () => {
                         <div className='text-center mx-4 px-2'>
                         <h3>Select Your Course</h3>
                             <ul className="list-group">
-                                {courses.map(name => <CourseName
-                                    key={name.id}
-                                    name={name}
+                                {courses.map(course => <CourseName
+                                    key={course.id}
+                                    course={course}
                                 ></CourseName>)
 
                                 }

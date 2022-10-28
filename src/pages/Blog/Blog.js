@@ -2,14 +2,15 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
+import Header from '../../Components/Header/Header';
 
 
 const Blog = () => {
     return (
         <div>
+            <Header></Header>
             <Container>
-                <h3 className='text-center my-5'>
-                    Return To <Link to={'/'}>Home</Link></h3>
+                
                 <div>
                     <Card className='my-5'>
                         <Card.Header className='font-bold'><h1>What is cors?</h1></Card.Header>

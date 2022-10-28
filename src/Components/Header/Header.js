@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/wb-logo.png';
+import './Header.css';
 //import './Header.css'
 import { FaHome, FaBookOpen, FaBloggerB, FaQuestionCircle, FaSun, FaMoon } from 'react-icons/fa';
 import { useContext } from 'react';
@@ -16,6 +17,7 @@ import Modal from 'react-bootstrap/Modal';
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [isDark, setDark] = useState(false);
+    // const [darkMode, setDarkMode] = useState(false);
 
     const [Show, setShow] = useState(false);
 
@@ -109,6 +111,23 @@ const Header = () => {
                                 }
                             </Nav>
                             <Nav>
+
+
+                                {/* <div className={darkMode ? "dark-mode" : "light-mode"}>
+                                    <div className="container">
+                                        <span style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
+                                        <div className="switch-checkbox">
+                                            <label className="switch">
+                                                <input type="checkbox" onChange={() => setDarkMode(!darkMode)} />
+                                                <span className="slider round"> </span>
+                                            </label>
+                                        </div>
+                                        <span style={{ color: darkMode ? "#c96dfd" : "grey" }}>☽</span>
+                                    </div>
+                                    <div>
+                                        <h1>Cool its {darkMode ? "Dark" : "Light"} Mode </h1>
+                                    </div>
+                                </div> */}
 
                                 <div className="form-check form-switch">
                                     <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={handleSwitch} />

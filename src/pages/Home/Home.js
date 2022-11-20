@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Image } from 'react-bootstrap';
 import { FaArrowAltCircleRight, FaQuestion } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import sideImage from '../../assets/home_img.png'
+import sideImage from '../../assets/home_img.png';
 
 const Home = () => {
     return (

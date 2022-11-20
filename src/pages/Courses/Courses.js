@@ -8,6 +8,8 @@ const Courses = () => {
     const courses = useLoaderData();
     return (
         <div>
+
+        {/* below the course Container */}
             <Container className='mb-5'>
                 <Row>
                 

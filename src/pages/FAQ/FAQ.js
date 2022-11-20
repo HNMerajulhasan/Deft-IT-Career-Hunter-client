@@ -3,6 +3,7 @@ import { Accordion, Container } from 'react-bootstrap';
 
 const FAQ = () => {
     return (
+        // below the faq container
         <Container>
             <div className='m-5'>
                 <h2 className='text-center my-5'>There are some FAQ by our clients.</h2>

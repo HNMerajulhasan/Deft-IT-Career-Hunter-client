@@ -7,6 +7,7 @@ import sideImage from '../../assets/home_img.png';
 const Home = () => {
     return (
         <div>
+           {/* //Below the home conatainer  */}
             <Container>
                 <div className='row'>
                     <div className='col-md-6 col-sm-12 '>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
-
+//FAQ section
 const FAQ = () => {
     return (
         // below the faq container

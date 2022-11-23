@@ -16,7 +16,7 @@ import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth';
 
-
+//Longin Section
 const Login = () => {
     const location = useLocation();
     const from = location.state?.from?.pathname || '/'

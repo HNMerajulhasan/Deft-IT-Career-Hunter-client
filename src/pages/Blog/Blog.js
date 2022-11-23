@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Header from '../../Components/Header/Header';
 
-
+//Blog section
 const Blog = () => {
     return (
         <div>

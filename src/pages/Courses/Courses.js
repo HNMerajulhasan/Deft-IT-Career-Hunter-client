@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useLoaderData } from 'react-router-dom';
 import Course from '../../Components/Course/Course';
 import CourseName from '../../Components/CourseName/CourseName';
-
+//Course Section
 const Courses = () => {
     const courses = useLoaderData();
     return (
